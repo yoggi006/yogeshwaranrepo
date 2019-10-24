@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="servicenowpages.ProjectSpec">
+        <methods>
+          <include name="setData"/>
+          <include name="start"/>
+          <include name="SN_createIncident"/>
+        </methods>
+      </class> <!-- servicenowpages.ProjectSpec -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
